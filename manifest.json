@@ -1,0 +1,24 @@
+{
+  "name": "UBIS Surver Solvey",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "UBIS Surver Solvey",
+  "homepage_url": "https://www.instagram.com/deniz_yunus.gogus/",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Solvey!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ],
+  "action":{
+	  "default_popup": "index.html"
+  }
+}
